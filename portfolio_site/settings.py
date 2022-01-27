@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'portfolio_site',
     'portfolio',#added 1/11
     'blog',
+    'exchange_rate', #added 1/12
 ]
 
 MIDDLEWARE = [
@@ -122,8 +123,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STACTIC_DIRS=[
-    # BASE_DIR / 'quote_generator' / 'static',
-    # BASE_DIR / 'movie_booking' / 'static',
+    BASE_DIR / 'quote_generator' / 'static',
+    BASE_DIR / 'movie_booking' / 'static',
 ]
 
 MEDIA_URL = '/media/'

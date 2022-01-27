@@ -15,14 +15,31 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from quote_generator import views
 from django.conf.urls.static import static
 from django.conf import settings
+from portfolio import views
+#changing each path's views as another name 
+#from quote_generator import views as quoteView
+#from exchange_rate import views as exchange_views
+
+
+
 
 urlpatterns = [
+    #after running server with: python manage.py runserver
+    #this path will allow you to use local host 
+    # to get access: http://127.0.0.1:8000/admin/ 
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
-    #path('blog/',include('blog.urls')),
+    #how it'll display in local host: http://127.0.0.1:8000/exchange/
+    #path('exchange/',exchange_views.index, name='exchangeView'),
+    #path('quote/', quoteView.index, name='quoteView'),
+    #if it first '' is something like path('', home.index, name='home'),
+    #then it'll make the default local host http://127.0.0.1:8000/ display it
+    path('', views.home, name='home'),
+    
+    
+    #ignore was commented out before
+    path('blog/',include('blog.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

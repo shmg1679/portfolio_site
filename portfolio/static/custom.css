@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(47, 47, 47);
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+  color: rgb(241, 218, 83);
+}

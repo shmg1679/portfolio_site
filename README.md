@@ -13,9 +13,6 @@ https://github.com/shmg1679/Italy_tour
 ### password generator
 https://github.com/shmg1679/password_generator
 
-### Pokedex
-https://github.com/shmg1679/TTPclasswork-and-others/tree/main/frontend_projects/Pokedex
-
 ### Light dark mode
 https://github.com/shmg1679/TTPclasswork-and-others/tree/main/frontend_projects/Light_dark_mode
 

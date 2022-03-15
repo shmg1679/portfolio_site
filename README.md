@@ -3,7 +3,6 @@
 
 Theres some project linked to it when its open.
 
-## projects shown
 ## food talk
 https://github.com/shmg1679/food-talk
 

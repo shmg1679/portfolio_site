@@ -5,7 +5,8 @@ Theres some project linked to it when its open.
 
 ## projects shown
 ### food talk
-https://github.com/shmg1679/food-talk <br>
+https://github.com/shmg1679/food-talk
+
 <img src = "https://user-images.githubusercontent.com/91004979/152427851-20635412-39eb-4b36-91b1-072fabfa23e6.jpg" width="700" height="800" style="float:right;">
 
 ### Italy tour
